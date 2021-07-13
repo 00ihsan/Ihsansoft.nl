@@ -1,3 +1,8 @@
+body
+{
+    line-height: 20px;
+}
+
 .menulogo
 {
    margin-block-start: 0cm;
@@ -26,8 +31,10 @@ footer p
 
 .Contact
 {
-
+    background-color: lightblue;
 }
 
 .Home
-{}
+{
+    background-color: yellow;
+}
