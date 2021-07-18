@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Ihsansoft Maintenance</title>
+        <title>403</title>
         <link rel="icon" href="../img/Ihsansoft-logo.png">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="../css/servernotifications.css">
+        <link rel="stylesheet" type="text/css" href="../css/server-notifications.css">
+        <script type="text/javascript">
+            function submit() {
+                var xhr = new XMLHttpRequest();
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === 4) {
+                        alert(xhr.response);
+                    }
+                }
+                xhr.open('post', 'https://maker.ifttt.com/trigger/403_ERROR_IHSANSOFT/with/key/dx-ghrJA9Q6WFfA2HuW-NB', true);
+                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+                xhr.send();
+            }
+        </script>      
     </head>
     <body>
         <header>
-            <h1><b>Welcome to Ihsansoft.nl</b></h1>
+            <h1><b>ERRROR 403: You're not allowed here!</b></h1>
         </header>
         <main>
             <br>
@@ -18,7 +31,7 @@
                 <img src="../img/Ihsansoft-logo.png" class="centerlogo">
             </a>
             <br>
-            <p>Ihsansoft.nl is momenteel niet beschikbaar vanwegen onderhoud! Wij zijn zo bij u terug! <br> Ihsansoft.nl is currently not available due to maintenance! We will be back soon!</p>
+            <p>You may not access this page!<br>The system admin is informed!</p>
         </main>
         <footer>
             <p>
