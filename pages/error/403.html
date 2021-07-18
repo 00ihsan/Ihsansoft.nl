@@ -8,18 +8,15 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="../css/server-notifications.css">
         <script type="text/javascript">
-            function submit() {
-                var xhr = new XMLHttpRequest();
-                xhr.onreadystatechange = function () {
-                    if (xhr.readyState === 4) {
-                        alert(xhr.response);
-                    }
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4) {
                 }
-                xhr.open('post', 'https://maker.ifttt.com/trigger/403_ERROR_IHSANSOFT/with/key/dx-ghrJA9Q6WFfA2HuW-NB', true);
-                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-                xhr.send();
             }
-        </script>      
+            xhr.open('get', 'https://maker.ifttt.com/trigger/403_ERROR_IHSANSOFT/with/key/dx-ghrJA9Q6WFfA2HuW-NB', true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+            xhr.send();
+    </script>      
     </head>
     <body>
         <header>
