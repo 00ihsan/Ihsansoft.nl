@@ -21,7 +21,7 @@
             <p>Ihsansoft.nl is momenteel niet beschikbaar vanwegen onderhoud! Wij zijn zo bij u terug! <br> Ihsansoft.nl is currently not available due to maintenance! We will be back soon!</p>
             <br>
             <div class="LOG">
-                <?php echo "This message is from server side." ?>
+                <p>IP adress: <?php echo $_SERVER["REMOTE_ADDR"]; ?> </p>
             </div>
         </main>
         <footer>
